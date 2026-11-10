@@ -6,6 +6,8 @@ Severidad relativa de los siniestros viales por localidad y franja horaria (2015
 
 Integrantes: Jean Paul Rojas Rojas, Daniel Estiven Pacheco Villagrande y Diego Andrés Cascante Camacho.
 
+Repositorio: https://github.com/diegoacc0608/severidad-siniestros-bogota
+
 ## De qué trata
 
 Ordenar las zonas de Bogotá por el número de siniestros que acumulan muestra dónde se concentran, pero no dónde son más graves. Estimamos, para las 80 combinaciones de localidad y franja horaria, la probabilidad de que un siniestro registrado sea grave (con heridos o muertos) y su incertidumbre. Usamos dos modelos jerárquicos bayesianos ajustados con MCMC programado a mano:
