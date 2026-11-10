@@ -48,3 +48,7 @@ El script busca `siniestros_limpios.csv` junto a él o en `datos/`; para correrl
 Fuente: Secretaría Distrital de Movilidad, *Siniestros viales consolidados Bogotá D.C.* (2015–2020), portal Datos Abiertos Bogotá: https://datosabiertos.bogota.gov.co/dataset/siniestros-viales-consolidados-bogota-d-c
 
 Trabajamos con una copia descargada por el equipo. Al volver a consultar el portal, el 9 de noviembre de 2026, el recurso aparecía como restringido; no conocemos el motivo. El Excel original (47 MB) no se incluye por su tamaño; sí se incluye la base limpia que se deriva de él (`notebooks/datos/siniestros_limpios.csv`), que no contiene datos personales. La sección 3.1 del artículo explica la procedencia con más detalle.
+
+## Uso de inteligencia artificial
+
+El equipo usó Claude (Anthropic) como apoyo para revisar la redacción y la coherencia del artículo frente a las retroalimentaciones de los docentes, verificar cifras contra los resultados del código, reorganizar la revisión de literatura y preparar este repositorio. El planteamiento, los modelos, el código, el análisis y las decisiones metodológicas son del equipo, que revisó y aprobó cada cambio.
