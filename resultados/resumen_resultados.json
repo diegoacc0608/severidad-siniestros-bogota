@@ -1,0 +1,566 @@
+{
+ "datos": {
+  "n_total": 196152,
+  "n_tr": 101500,
+  "y_tr": 33331,
+  "n_te": 71943,
+  "y_te": 25972,
+  "n_20": 22709,
+  "y_20": 8930,
+  "p_tr": 0.32838,
+  "p_te": 0.36101,
+  "p_20": 0.39324,
+  "celdas": 80,
+  "celdas_eleg": 75,
+  "celdas_n0": 3,
+  "celdas_peq": 21
+ },
+ "eda_rho_localidad": -0.62632,
+ "eda_anio": {
+  "2015": 0.3595,
+  "2016": 0.31854,
+  "2017": 0.31045,
+  "2018": 0.35475,
+  "2019": 0.36762,
+  "2020": 0.39324
+ },
+ "ppc_percentil": {
+  "M1_0": 0.60325,
+  "M1_1": 0.826,
+  "M1_2": 0.6575,
+  "M1_3": 0.62025,
+  "M2_0": 0.5275,
+  "M2_1": 0.327,
+  "M2_2": 0.20025,
+  "M2_3": 0.41625
+ },
+ "ppc_obs": [
+  0.36885,
+  0.0994,
+  0.37732,
+  0.09333
+ ],
+ "tiempo_s": {
+  "M1": 5.6,
+  "M2": 35.1
+ },
+ "acept_M1": 0.32022,
+ "acept_M2": {
+  "mu": 0.38698,
+  "a": 0.36603,
+  "b": 0.37367,
+  "g": 0.36347,
+  "d": 0.36549,
+  "sh_mu_a": 0.32803,
+  "sh_mu_b": 0.38554,
+  "sh_mu_d": 0.36223,
+  "sh_a_g": 0.3563,
+  "sh_b_g": 0.34888
+ },
+ "diag": {
+  "M1": {
+   "rhat_max": 1.0,
+   "ess_bulk_min": 8961.0,
+   "ess_tail_min": 12835.0,
+   "hiper": {
+    "m": {
+     "rhat": 1.0,
+     "ess": 9942.0
+    },
+    "kappa": {
+     "rhat": 1.0,
+     "ess": 8961.0
+    }
+   }
+  },
+  "M2": {
+   "rhat_max": 1.0,
+   "ess_bulk_min": 9204.0,
+   "ess_tail_min": 21772.0,
+   "hiper": {
+    "mu": {
+     "rhat": 1.0,
+     "ess": 17868.0
+    },
+    "sigma_a": {
+     "rhat": 1.0,
+     "ess": 37827.0
+    },
+    "sigma_b": {
+     "rhat": 1.0,
+     "ess": 49307.0
+    },
+    "sigma_g": {
+     "rhat": 1.0,
+     "ess": 9204.0
+    },
+    "sigma_d": {
+     "rhat": 1.0,
+     "ess": 45333.0
+    }
+   }
+  }
+ },
+ "M1_post": {
+  "m": 0.3673,
+  "m_ci": [
+   0.34862,
+   0.38623
+  ],
+  "kappa": 23.46104,
+  "kappa_ci": [
+   17.66914,
+   30.12569
+  ]
+ },
+ "M2_post": {
+  "mu": {
+   "media": -0.57336,
+   "ci": [
+    -0.94814,
+    -0.20546
+   ]
+  },
+  "sigma_a": {
+   "media": 0.42785,
+   "ci": [
+    0.33305,
+    0.54963
+   ]
+  },
+  "sigma_b": {
+   "media": 0.37429,
+   "ci": [
+    0.25025,
+    0.55945
+   ]
+  },
+  "sigma_g": {
+   "media": 0.15993,
+   "ci": [
+    0.13098,
+    0.19352
+   ]
+  },
+  "sigma_d": {
+   "media": 0.1405,
+   "ci": [
+    0.09102,
+    0.21656
+   ]
+  }
+ },
+ "M2_franja_OR": {
+  "Madrugada (0-6)": {
+   "OR": 1.09131,
+   "ci": [
+    1.02419,
+    1.1605
+   ]
+  },
+  "Mañana (6-12)": {
+   "OR": 0.952,
+   "ci": [
+    0.89968,
+    1.00712
+   ]
+  },
+  "Tarde (12-18)": {
+   "OR": 0.84405,
+   "ci": [
+    0.79737,
+    0.89248
+   ]
+  },
+  "Noche (18-24)": {
+   "OR": 1.14323,
+   "ci": [
+    1.07903,
+    1.21006
+   ]
+  }
+ },
+ "M2_anio_d": {
+  "2015": 0.13811,
+  "2016": -0.04958,
+  "2017": -0.08582
+ },
+ "niveles": {
+  "Alta": 41,
+  "Baja": 24,
+  "Intermedia": 10,
+  "No concluyente": 5
+ },
+ "top10_M2": [
+  {
+   "localidad": "Rafael Uribe Uribe",
+   "franja": "Noche (18-24)",
+   "n_2015_2017": 705,
+   "p_cruda": 0.55,
+   "M2_media": 0.547,
+   "M2_q05": 0.473,
+   "M2_q95": 0.619,
+   "M2_P_top10": 1.0,
+   "p_obs_2018_2019": 0.533,
+   "rank_conteo": 37
+  },
+  {
+   "localidad": "Usme",
+   "franja": "Noche (18-24)",
+   "n_2015_2017": 502,
+   "p_cruda": 0.542,
+   "M2_media": 0.534,
+   "M2_q05": 0.458,
+   "M2_q95": 0.608,
+   "M2_P_top10": 0.99,
+   "p_obs_2018_2019": 0.525,
+   "rank_conteo": 54
+  },
+  {
+   "localidad": "San Cristóbal",
+   "franja": "Noche (18-24)",
+   "n_2015_2017": 636,
+   "p_cruda": 0.53,
+   "M2_media": 0.531,
+   "M2_q05": 0.457,
+   "M2_q95": 0.605,
+   "M2_P_top10": 0.993,
+   "p_obs_2018_2019": 0.548,
+   "rank_conteo": 45
+  },
+  {
+   "localidad": "San Cristóbal",
+   "franja": "Mañana (6-12)",
+   "n_2015_2017": 808,
+   "p_cruda": 0.528,
+   "M2_media": 0.521,
+   "M2_q05": 0.448,
+   "M2_q95": 0.594,
+   "M2_P_top10": 0.986,
+   "p_obs_2018_2019": 0.573,
+   "rank_conteo": 34
+  },
+  {
+   "localidad": "San Cristóbal",
+   "franja": "Tarde (12-18)",
+   "n_2015_2017": 832,
+   "p_cruda": 0.52,
+   "M2_media": 0.51,
+   "M2_q05": 0.437,
+   "M2_q95": 0.582,
+   "M2_P_top10": 0.923,
+   "p_obs_2018_2019": 0.484,
+   "rank_conteo": 33
+  },
+  {
+   "localidad": "Bosa",
+   "franja": "Noche (18-24)",
+   "n_2015_2017": 1172,
+   "p_cruda": 0.502,
+   "M2_media": 0.501,
+   "M2_q05": 0.429,
+   "M2_q95": 0.571,
+   "M2_P_top10": 0.849,
+   "p_obs_2018_2019": 0.488,
+   "rank_conteo": 18
+  },
+  {
+   "localidad": "Rafael Uribe Uribe",
+   "franja": "Tarde (12-18)",
+   "n_2015_2017": 891,
+   "p_cruda": 0.502,
+   "M2_media": 0.496,
+   "M2_q05": 0.423,
+   "M2_q95": 0.568,
+   "M2_P_top10": 0.74,
+   "p_obs_2018_2019": 0.507,
+   "rank_conteo": 31
+  },
+  {
+   "localidad": "Rafael Uribe Uribe",
+   "franja": "Mañana (6-12)",
+   "n_2015_2017": 807,
+   "p_cruda": 0.494,
+   "M2_media": 0.494,
+   "M2_q05": 0.421,
+   "M2_q95": 0.566,
+   "M2_P_top10": 0.681,
+   "p_obs_2018_2019": 0.565,
+   "rank_conteo": 35
+  },
+  {
+   "localidad": "Ciudad Bolívar",
+   "franja": "Noche (18-24)",
+   "n_2015_2017": 1031,
+   "p_cruda": 0.486,
+   "M2_media": 0.487,
+   "M2_q05": 0.416,
+   "M2_q95": 0.559,
+   "M2_P_top10": 0.545,
+   "p_obs_2018_2019": 0.522,
+   "rank_conteo": 24
+  },
+  {
+   "localidad": "Antonio Nariño",
+   "franja": "Noche (18-24)",
+   "n_2015_2017": 494,
+   "p_cruda": 0.488,
+   "M2_media": 0.481,
+   "M2_q05": 0.406,
+   "M2_q95": 0.557,
+   "M2_P_top10": 0.406,
+   "p_obs_2018_2019": 0.523,
+   "rank_conteo": 57
+  }
+ ],
+ "top10_conteo": [
+  {
+   "localidad": "Kennedy",
+   "franja": "Mañana (6-12)",
+   "graves_2015_2017": 1456,
+   "M2_media": 0.404,
+   "rank_M2": 32
+  },
+  {
+   "localidad": "Kennedy",
+   "franja": "Tarde (12-18)",
+   "graves_2015_2017": 1394,
+   "M2_media": 0.37,
+   "rank_M2": 41
+  },
+  {
+   "localidad": "Kennedy",
+   "franja": "Noche (18-24)",
+   "graves_2015_2017": 1268,
+   "M2_media": 0.453,
+   "rank_M2": 21
+  },
+  {
+   "localidad": "Engativá",
+   "franja": "Mañana (6-12)",
+   "graves_2015_2017": 1111,
+   "M2_media": 0.31,
+   "rank_M2": 57
+  },
+  {
+   "localidad": "Suba",
+   "franja": "Mañana (6-12)",
+   "graves_2015_2017": 1004,
+   "M2_media": 0.309,
+   "rank_M2": 58
+  },
+  {
+   "localidad": "Suba",
+   "franja": "Tarde (12-18)",
+   "graves_2015_2017": 958,
+   "M2_media": 0.287,
+   "rank_M2": 61
+  },
+  {
+   "localidad": "Engativá",
+   "franja": "Tarde (12-18)",
+   "graves_2015_2017": 935,
+   "M2_media": 0.271,
+   "rank_M2": 67
+  },
+  {
+   "localidad": "Engativá",
+   "franja": "Noche (18-24)",
+   "graves_2015_2017": 821,
+   "M2_media": 0.341,
+   "rank_M2": 48
+  },
+  {
+   "localidad": "Puente Aranda",
+   "franja": "Mañana (6-12)",
+   "graves_2015_2017": 812,
+   "M2_media": 0.346,
+   "rank_M2": 45
+  },
+  {
+   "localidad": "Suba",
+   "franja": "Noche (18-24)",
+   "graves_2015_2017": 780,
+   "M2_media": 0.338,
+   "rank_M2": 49
+  }
+ ],
+ "n_top10_M2_en_top10_conteo": 0,
+ "n_top10_M2_sur": 9,
+ "n_top10_M2_noche": 6,
+ "P_top10_alta": 5,
+ "P_top10_ge_05": 9,
+ "P_top10_entre_01_05": 7,
+ "rho_M2_vs_conteo": -0.19035,
+ "rho_M1_vs_M2": 0.99058,
+ "ancho_ci_M2_mediana": 0.13907,
+ "ancho_ci_M2_peq": 0.1533,
+ "ancho_ci_M2_grand": 0.13185,
+ "encogimiento_max_pp_M2": 4.53443,
+ "validacion": {
+  "Ciudad (agrupamiento completo)": {
+   "brier": 0.23175,
+   "logloss": 0.65637,
+   "spearman": NaN,
+   "top10": 1,
+   "mae_sur": 0.17369,
+   "mae_no_sur": 0.07817,
+   "sesgo_sur": -0.17369,
+   "sesgo_no_sur": -0.0339,
+   "mae_noche_madrug": 0.12235,
+   "mae_no_noche_madrug": 0.09548,
+   "sesgo_noche_madrug": -0.10761,
+   "sesgo_no_noche_madrug": -0.05042,
+   "mae_pequenas": 0.11951,
+   "mae_no_pequenas": 0.10581,
+   "sesgo_pequenas": -0.11951,
+   "sesgo_no_pequenas": -0.06755,
+   "mae_total": 0.10873,
+   "sesgo_total": -0.07863
+  },
+  "Proporción cruda (sin agrupamiento)": {
+   "brier": 0.22181,
+   "logloss": 0.63486,
+   "spearman": 0.92136,
+   "top10": 6,
+   "mae_sur": 0.0444,
+   "mae_no_sur": 0.04303,
+   "sesgo_sur": -0.03111,
+   "sesgo_no_sur": -0.04148,
+   "mae_noche_madrug": 0.04925,
+   "mae_no_noche_madrug": 0.03785,
+   "sesgo_noche_madrug": -0.04343,
+   "sesgo_no_noche_madrug": -0.03304,
+   "mae_pequenas": 0.07509,
+   "mae_no_pequenas": 0.0349,
+   "sesgo_pequenas": -0.0677,
+   "sesgo_no_pequenas": -0.03015,
+   "mae_total": 0.04347,
+   "sesgo_total": -0.03816
+  },
+  "M1 Beta-Binomial jerárquico": {
+   "brier": 0.22179,
+   "logloss": 0.63462,
+   "spearman": 0.92262,
+   "top10": 6,
+   "mae_sur": 0.04539,
+   "mae_no_sur": 0.04239,
+   "sesgo_sur": -0.03471,
+   "sesgo_no_sur": -0.04086,
+   "mae_noche_madrug": 0.04942,
+   "mae_no_noche_madrug": 0.03744,
+   "sesgo_noche_madrug": -0.0449,
+   "sesgo_no_noche_madrug": -0.03304,
+   "mae_pequenas": 0.07453,
+   "mae_no_pequenas": 0.0349,
+   "sesgo_pequenas": -0.06839,
+   "sesgo_no_pequenas": -0.03089,
+   "mae_total": 0.04335,
+   "sesgo_total": -0.03889,
+   "lpd": -429.68151,
+   "cobertura90": 0.49367,
+   "cobertura90_pequenas": 0.5,
+   "cobertura90_grandes": 0.47458,
+   "piso_mae_pequenas": 0.02992,
+   "piso_mae_grandes": 0.01289
+  },
+  "M2 Logística jerárquica": {
+   "brier": 0.22169,
+   "logloss": 0.63439,
+   "spearman": 0.93308,
+   "top10": 6,
+   "mae_sur": 0.03761,
+   "mae_no_sur": 0.04318,
+   "sesgo_sur": -0.02641,
+   "sesgo_no_sur": -0.04131,
+   "mae_noche_madrug": 0.04636,
+   "mae_no_noche_madrug": 0.03657,
+   "sesgo_noche_madrug": -0.04081,
+   "sesgo_no_noche_madrug": -0.03239,
+   "mae_pequenas": 0.06686,
+   "mae_no_pequenas": 0.03449,
+   "sesgo_pequenas": -0.05933,
+   "sesgo_no_pequenas": -0.03036,
+   "mae_total": 0.0414,
+   "sesgo_total": -0.03654,
+   "lpd": -375.29732,
+   "cobertura90": 0.94937,
+   "cobertura90_pequenas": 0.875,
+   "cobertura90_grandes": 0.98305,
+   "piso_mae_pequenas": 0.02987,
+   "piso_mae_grandes": 0.01288
+  },
+  "Conteo de graves (criterio actual)": {
+   "spearman": -0.32901,
+   "top10": 0
+  }
+ },
+ "criterios": {
+  "M1 Beta-Binomial jerárquico": {
+   "spearman_ok": true,
+   "brier_ok": true,
+   "top10_ok": true
+  },
+  "M2 Logística jerárquica": {
+   "spearman_ok": true,
+   "brier_ok": true,
+   "top10_ok": true
+  }
+ },
+ "brier_M2_nivel_corregido": 0.22089,
+ "brier_cruda_nivel_corregido": 0.22093,
+ "sensibilidades": {
+  "kappa centrada en 10": {
+   "spearman": 0.92262,
+   "brier": 0.22179,
+   "top10": 6,
+   "kappa": 21.33758,
+   "rho_vs_M1": 1.0
+  },
+  "kappa centrada en 300": {
+   "spearman": 0.92339,
+   "brier": 0.22179,
+   "top10": 6,
+   "kappa": 23.93317,
+   "rho_vs_M1": 0.99994
+  },
+  "franjas de 3 horas (160 celdas)": {
+   "spearman": 0.9057,
+   "spearman_cruda": 0.90157,
+   "top10": 5,
+   "celdas_eleg": 149,
+   "brier": 0.22062,
+   "brier_cruda": 0.22066
+  },
+  "solo siniestros con muertos": {
+   "spearman": 0.84452,
+   "spearman_cruda": 0.84239,
+   "rho_vs_graves": 0.70626,
+   "tasa_muertos_tr": 0.0161,
+   "m": 0.02114,
+   "kappa": 149.74073,
+   "top10_comun_con_M2": 2,
+   "top10": [
+    "Kennedy | Madrugada (0-6) (4.1 %)",
+    "Tunjuelito | Noche (18-24) (3.6 %)",
+    "Engativá | Madrugada (0-6) (3.6 %)",
+    "Usme | Noche (18-24) (3.6 %)",
+    "Rafael Uribe Uribe | Madrugada (0-6) (3.5 %)",
+    "Barrios Unidos | Madrugada (0-6) (3.5 %)",
+    "Bosa | Madrugada (0-6) (3.5 %)",
+    "Ciudad Bolívar | Madrugada (0-6) (3.4 %)",
+    "San Cristóbal | Madrugada (0-6) (3.4 %)",
+    "Antonio Nariño | Noche (18-24) (3.3 %)"
+   ],
+   "top10_sur": 6,
+   "top10_noche": 10
+  },
+  "2020 (ruptura)": {
+   "spearman_M2": 0.8068,
+   "spearman_cruda": 0.83348,
+   "spearman_conteo": -0.3659,
+   "top10_M2": 3,
+   "celdas_eleg": 74
+  }
+ }
+}
