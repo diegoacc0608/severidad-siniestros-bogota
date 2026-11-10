@@ -1,0 +1,163 @@
+{
+ "datos": {
+  "p_tr": 0.32838,
+  "p_te": 0.36101
+ },
+ "niveles": {
+  "Alta": 41,
+  "Baja": 24,
+  "Intermedia": 10,
+  "No concluyente": 5
+ },
+ "prioridad1_P_top10_ge_05": 9,
+ "P_top10_mayor_09": 5,
+ "P_top10_entre_01_05": 7,
+ "prioridad2": 32,
+ "menor_n_en_prioridad1": 502,
+ "rho_M2_vs_conteo": -0.19035,
+ "rho_M1_vs_M2": 0.99058,
+ "encogimiento_max_pp_M2": 4.53443,
+ "rango_M2": [
+  [
+   {
+    "localidad": "Usaquén",
+    "franja": "Tarde (12-18)",
+    "M2_media": 0.176,
+    "M2_q05": 0.138,
+    "M2_q95": 0.219
+   },
+   {
+    "localidad": "Rafael Uribe Uribe",
+    "franja": "Noche (18-24)",
+    "M2_media": 0.547,
+    "M2_q05": 0.473,
+    "M2_q95": 0.619
+   }
+  ]
+ ],
+ "validacion": {
+  "Ciudad (agrupamiento completo)": {
+   "brier": 0.23175,
+   "logloss": 0.65637,
+   "spearman": NaN,
+   "top10": 1,
+   "mae_sur": 0.17369,
+   "mae_no_sur": 0.07817,
+   "sesgo_sur": -0.17369,
+   "sesgo_no_sur": -0.0339,
+   "mae_noche_madrug": 0.12235,
+   "mae_no_noche_madrug": 0.09548,
+   "sesgo_noche_madrug": -0.10761,
+   "sesgo_no_noche_madrug": -0.05042,
+   "mae_pequenas": 0.11951,
+   "mae_no_pequenas": 0.10581,
+   "sesgo_pequenas": -0.11951,
+   "sesgo_no_pequenas": -0.06755,
+   "mae_total": 0.10873,
+   "sesgo_total": -0.07863
+  },
+  "Proporción cruda (sin agrupamiento)": {
+   "brier": 0.22181,
+   "logloss": 0.63486,
+   "spearman": 0.92136,
+   "top10": 6,
+   "mae_sur": 0.0444,
+   "mae_no_sur": 0.04303,
+   "sesgo_sur": -0.03111,
+   "sesgo_no_sur": -0.04148,
+   "mae_noche_madrug": 0.04925,
+   "mae_no_noche_madrug": 0.03785,
+   "sesgo_noche_madrug": -0.04343,
+   "sesgo_no_noche_madrug": -0.03304,
+   "mae_pequenas": 0.07509,
+   "mae_no_pequenas": 0.0349,
+   "sesgo_pequenas": -0.0677,
+   "sesgo_no_pequenas": -0.03015,
+   "mae_total": 0.04347,
+   "sesgo_total": -0.03816
+  },
+  "M1 Beta-Binomial jerárquico": {
+   "brier": 0.22179,
+   "logloss": 0.63462,
+   "spearman": 0.92262,
+   "top10": 6,
+   "mae_sur": 0.04539,
+   "mae_no_sur": 0.04239,
+   "sesgo_sur": -0.03471,
+   "sesgo_no_sur": -0.04086,
+   "mae_noche_madrug": 0.04942,
+   "mae_no_noche_madrug": 0.03744,
+   "sesgo_noche_madrug": -0.0449,
+   "sesgo_no_noche_madrug": -0.03304,
+   "mae_pequenas": 0.07453,
+   "mae_no_pequenas": 0.0349,
+   "sesgo_pequenas": -0.06839,
+   "sesgo_no_pequenas": -0.03089,
+   "mae_total": 0.04335,
+   "sesgo_total": -0.03889,
+   "lpd": -429.68151,
+   "cobertura90": 0.49367,
+   "cobertura90_pequenas": 0.5,
+   "cobertura90_grandes": 0.47458,
+   "piso_mae_pequenas": 0.02992,
+   "piso_mae_grandes": 0.01289
+  },
+  "M2 Logística jerárquica": {
+   "brier": 0.22169,
+   "logloss": 0.63439,
+   "spearman": 0.93308,
+   "top10": 6,
+   "mae_sur": 0.03761,
+   "mae_no_sur": 0.04318,
+   "sesgo_sur": -0.02641,
+   "sesgo_no_sur": -0.04131,
+   "mae_noche_madrug": 0.04636,
+   "mae_no_noche_madrug": 0.03657,
+   "sesgo_noche_madrug": -0.04081,
+   "sesgo_no_noche_madrug": -0.03239,
+   "mae_pequenas": 0.06686,
+   "mae_no_pequenas": 0.03449,
+   "sesgo_pequenas": -0.05933,
+   "sesgo_no_pequenas": -0.03036,
+   "mae_total": 0.0414,
+   "sesgo_total": -0.03654,
+   "lpd": -375.29732,
+   "cobertura90": 0.94937,
+   "cobertura90_pequenas": 0.875,
+   "cobertura90_grandes": 0.98305,
+   "piso_mae_pequenas": 0.02987,
+   "piso_mae_grandes": 0.01288
+  },
+  "Conteo de graves (criterio actual)": {
+   "spearman": -0.32901,
+   "top10": 0
+  }
+ },
+ "criterios": {
+  "M1 Beta-Binomial jerárquico": {
+   "spearman_ok": true,
+   "brier_ok": true,
+   "top10_ok": true
+  },
+  "M2 Logística jerárquica": {
+   "spearman_ok": true,
+   "brier_ok": true,
+   "top10_ok": true
+  }
+ },
+ "brier_M2_nivel_corregido": 0.22089,
+ "brier_cruda_nivel_corregido": 0.22093,
+ "capacidad_10_celdas": {
+  "M2": {
+   "siniestros": 6048,
+   "graves": 3169,
+   "pct": 0.52397
+  },
+  "conteo": {
+   "siniestros": 21016,
+   "graves": 7755,
+   "pct": 0.369
+  },
+  "coinciden": 0
+ }
+}

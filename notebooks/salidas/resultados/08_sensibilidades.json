@@ -1,0 +1,56 @@
+{
+ "sensibilidades": {
+  "kappa centrada en 10": {
+   "spearman": 0.92262,
+   "brier": 0.22179,
+   "top10": 6,
+   "kappa": 21.33758,
+   "rho_vs_M1": 1.0
+  },
+  "kappa centrada en 300": {
+   "spearman": 0.92339,
+   "brier": 0.22179,
+   "top10": 6,
+   "kappa": 23.93317,
+   "rho_vs_M1": 0.99994
+  },
+  "franjas de 3 horas (160 celdas)": {
+   "spearman": 0.9057,
+   "spearman_cruda": 0.90157,
+   "top10": 5,
+   "celdas_eleg": 149,
+   "brier": 0.22062,
+   "brier_cruda": 0.22066
+  },
+  "solo siniestros con muertos": {
+   "spearman": 0.84452,
+   "spearman_cruda": 0.84239,
+   "rho_vs_graves": 0.70626,
+   "tasa_muertos_tr": 0.0161,
+   "m": 0.02114,
+   "kappa": 149.74073,
+   "top10_comun_con_M2": 2,
+   "top10": [
+    "Kennedy | Madrugada (0-6) (4.1 %)",
+    "Tunjuelito | Noche (18-24) (3.6 %)",
+    "Engativá | Madrugada (0-6) (3.6 %)",
+    "Usme | Noche (18-24) (3.6 %)",
+    "Rafael Uribe Uribe | Madrugada (0-6) (3.5 %)",
+    "Barrios Unidos | Madrugada (0-6) (3.5 %)",
+    "Bosa | Madrugada (0-6) (3.5 %)",
+    "Ciudad Bolívar | Madrugada (0-6) (3.4 %)",
+    "San Cristóbal | Madrugada (0-6) (3.4 %)",
+    "Antonio Nariño | Noche (18-24) (3.3 %)"
+   ],
+   "top10_sur": 6,
+   "top10_noche": 10
+  },
+  "2020 (ruptura)": {
+   "spearman_M2": 0.8068,
+   "spearman_cruda": 0.83348,
+   "spearman_conteo": -0.3659,
+   "top10_M2": 3,
+   "celdas_eleg": 74
+  }
+ }
+}

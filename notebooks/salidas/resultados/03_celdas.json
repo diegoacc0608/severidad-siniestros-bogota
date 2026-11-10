@@ -1,0 +1,13 @@
+{
+ "celdas": 80,
+ "con_datos": 77,
+ "evaluables": 75,
+ "pequenas_menos_500": 21,
+ "n_ajuste": 101500,
+ "graves_ajuste": 33331,
+ "n_prueba": 71943,
+ "graves_prueba": 25972,
+ "p_ajuste": 0.32838,
+ "p_prueba": 0.36101,
+ "p_2020": 0.39324
+}
