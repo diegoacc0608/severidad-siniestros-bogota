@@ -1,11 +1,11 @@
-# Notebooks del Grupo 1 — Estadística Bayesiana, entrega final
+# Notebooks del Grupo 2 — Estadística Bayesiana, entrega final
 
 Severidad relativa de los siniestros viales en Bogotá por localidad y franja horaria (2015–2019).
 Integrantes: Jean Paul Rojas Rojas, Daniel Estiven Pacheco Villagrande, Diego Andrés Cascante Camacho.
 
-## El notebook principal: `Grupo1_Bayesiana_completo.ipynb`
+## El notebook principal: `Grupo2_Bayesiana_completo.ipynb`
 
-Un solo notebook reúne todo el trabajo, de la base de la Secretaría Distrital de Movilidad (SDM) a cada cifra y figura del informe `Grupo1_EntregaFinal_Bayesiana.pdf`. Ya trae sus salidas guardadas y se corre de principio a fin: en Colab, **Entorno de ejecución → Ejecutar todas**.
+Un solo notebook reúne todo el trabajo, de la base de la Secretaría Distrital de Movilidad (SDM) a cada cifra y figura del informe `Grupo2_EntregaFinal_Bayesiana.pdf`. Ya trae sus salidas guardadas y se corre de principio a fin: en Colab, **Entorno de ejecución → Ejecutar todas**.
 
 | Sección | Qué hace | Empieza en la celda |
 |---|---|---|
@@ -25,7 +25,7 @@ La numeración de celdas cuenta desde 1, incluidas las de texto.
 ## Cómo correrlo en Google Colab
 
 1. Suba la carpeta `notebooks` completa a su Google Drive.
-2. Abra `Grupo1_Bayesiana_completo.ipynb` con Colab y ejecute todo. La primera celda de código monta el Drive y busca la carpeta sola; si no la encuentra, escriba su ruta en `BASE_COLAB`.
+2. Abra `Grupo2_Bayesiana_completo.ipynb` con Colab y ejecute todo. La primera celda de código monta el Drive y busca la carpeta sola; si no la encuentra, escriba su ruta en `BASE_COLAB`.
 3. La sección 1 necesita el Excel de la SDM en `notebooks/datos/`. No viene incluido porque pesa 47 MB. Sin él, ejecute la sección 0 y siga desde la 2: `datos/siniestros_limpios.csv` sí viene.
 
 Tiempo total en un portátil: unos 4 minutos, de los cuales 2,5 son la lectura del Excel.
@@ -59,7 +59,7 @@ Tiempo total en un portátil: unos 4 minutos, de los cuales 2,5 son la lectura d
 - `salidas/figuras/`: las 10 figuras del informe. `salidas/resultados/`: tablas, diagnósticos y un `.json` por etapa. `salidas/eda_original/`: figuras y tablas del EDA original. `salidas/m1_resumen.npz` y `m2_resumen.npz`: resúmenes de las cadenas que usan las secciones 7 y 8.
 - `comun.py` y `mcmc.py`: los escribe la sección 0 del notebook principal. No hay que editarlos.
 - `por_etapas/`: respaldo con las mismas ocho etapas en notebooks separados (`01_carga_y_limpieza` … `08_sensibilidades`), también ejecutados. Sirve para revisar o correr una sola etapa; producen las mismas salidas.
-- `../Grupo1_EntregaFinal_Bayesiana.py`: el mismo análisis en un solo script, sin el EDA original.
+- `../Grupo2_EntregaFinal_Bayesiana.py`: el mismo análisis en un solo script, sin el EDA original.
 
 ## Datos de origen
 

@@ -1,5 +1,5 @@
 """
-Grupo 1 - Estadística Bayesiana - Entrega final
+Grupo 2 - Estadística Bayesiana - Entrega final
 Severidad relativa de los siniestros viales en Bogotá por localidad y franja horaria.
 
 Datos: Secretaría Distrital de Movilidad, "Siniestros viales consolidados Bogotá D.C."
@@ -19,7 +19,7 @@ Partición: se estima con 2015-2017 y se valida una sola vez con 2018-2019. 2020
 
 Ejecutar desde cualquier carpeta:
   uv run --no-project --with numpy --with pandas --with scipy --with matplotlib \
-         --with "arviz<1" python Grupo1_EntregaFinal_Bayesiana.py
+         --with "arviz<1" python Grupo2_EntregaFinal_Bayesiana.py
 Salidas: figuras/ (PNG) y resultados/ (CSV y JSON con todas las cifras del informe).
 Versiones con las que se generó el informe: Python 3.12.10, numpy 2.3.5, pandas 2.3.3,
 scipy 1.18.1, matplotlib 3.10.7, arviz 0.23.4. Copia local de la base: 25 de octubre de 2026.

@@ -1,7 +1,7 @@
 """
-Grupo 1 - Estadística Bayesiana - Entrega final
+Grupo 2 - Estadística Bayesiana - Entrega final
 Módulo común a los notebooks 02 a 08: rutas, datos, celdas y métricas.
-Es el mismo código de Grupo1_EntregaFinal_Bayesiana.py (secciones 1 y 6), separado
+Es el mismo código de Grupo2_EntregaFinal_Bayesiana.py (secciones 1 y 6), separado
 para que cada notebook pueda correr por sí solo.
 """
 from pathlib import Path

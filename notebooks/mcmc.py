@@ -1,5 +1,5 @@
 """Muestreadores MCMC programados a mano (M1 y M2), idénticos a los de los notebooks 05 y 06
-y a Grupo1_EntregaFinal_Bayesiana.py. El notebook 08 los importa para las sensibilidades."""
+y a Grupo2_EntregaFinal_Bayesiana.py. El notebook 08 los importa para las sensibilidades."""
 import numpy as np
 from scipy import special as sp
 import arviz as az
