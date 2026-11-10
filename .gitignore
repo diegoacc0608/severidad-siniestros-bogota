@@ -1,0 +1,21 @@
+# Python y Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# LaTeX (archivos intermedios de compilación)
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Base original de la SDM (47 MB): ver la sección "Datos" del README
+siniestros_viales_consolidados_bogota_dc.xlsx
+
+# Sistema
+.DS_Store
+Thumbs.db
